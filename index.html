@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>solaris | home</title>
+
+<style>
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #47BEF3;
+  overflow-x: hidden;
+  }
+
+  header {
+  background-color: #47BEF3;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .logo {
+  font-size: 24px;
+  font-weight: bold;
+  }
+
+  .menu {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+  }
+
+  .menu a {
+  color: white;
+  text-decoration: none;
+  margin-right:10px;
+  margin-top: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  transition: text-decoration 0.3s ease, transform 0.2s ease;
+  }
+
+  .menu a:hover {
+  text-decoration: underline; 
+  transform: scale(1.1);
+  }
+
+  .menu button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  }
+
+  .menu button:hover {
+  opacity: 0.7; 
+  }
+
+  .column {
+  float: left;
+  width: 33.33%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+</style>
+</head>
+
+<body>
+<header>
+<div class="logo">
+  <img src="index/logo_s.png" style="width: 200px;" alt="Nome do site: Solaris">
+</div>
+
+<nav>
+<div class="menu">
+  <a href="index.html">Início</a>
+  <a href="nossojogo.html">Nosso jogo</a>
+  <a href="sobrenos.html">Sobre nós</a>
+  <a href="materiaisdeapoio.html">Materiais de apoio</a>
+  <button><a href="login.php"><img src="index/user.png" style="height: 30px; padding: 1px;" alt="Botão para acessar login"></button></a>
+  <button><img src="index/search.png" style="height: 30px;" alt="Botão para abrir barra de pesquisa"></button>
+</div>
+</nav>
+</header>
+
+<main>
+<p style="color: white; font-size: 30px; margin-left: 100px; margin-right: 750px;margin-top: 100px;">
+  "Ut tincidunt, metus vitae euismod aliquam, lorem dui sagittis neque, luctus scelerisque justo elit 
+  eget augue. Sed feugiat nec urna vitae iaculis. Vivamus porta consectetur leo. Morbi velit neque. "
+</p>
+     
+<img src="index/n1.png" style="position: absolute; height: 500px; margin-left: 470px; margin-top: -320px;" alt="Nuvens em plano de fundo">
+<img src="index/persos/index.png" style="position: absolute; height: 650px; margin-left: 600px; margin-top: -360px;" alt="Personagens Sol e Lua juntos. O Sol está sorrindo acenando a mão, enquanto a Lua tem suas mãos juntas.">
+</main>
+
+<br>
+
+<section>
+<div style="position: absolute; background-color: #fea50d; margin-top: 100px; width: 270px; height: 200px;">
+<img src="index/att.png" style="width: 300px; margin-left: -20px; margin-top: 65px;" alt="Atualizações do mês!">
+</div>
+
+<img src="index/atualizacoes1.jpg" style="position: relative; margin-left: 270px; margin-top: 100px;" alt="Atualizações mensais">
+</section>
+
+<section>
+<div style="flex: 1; background-color: #0D82FF; margin-top: -23px; height: 1020px;">
+<video width="1120" height="640" controls style="margin-left: 110px; margin-top: 100px;">
+<source src="index/teste.mp4" type="video/mp4">
+</video>
+</section>
+
+<footer>
+<img src="index/n2.png" style="position: absolute; width: 1700px; margin-left: 0px; margin-top: -500px;" alt="Nuvens no plano de fundo">
+<div style="flex: 1; background-color: #ffffff; margin-top: -30px; height: 200px; position: relative;" class="row"> 
+  <div class="column">
+    <img src="index/I.png" style="width: 350px; margin-left: 80px;" alt="Institucional">
+    <p style="font-size: 20px; text-align: center; margin-top: -10px; margin-left: 100px; margin-right: 20px;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Suspendisse nisl ex, ullamcorper a faucibus a, tristique a lorem.
+    </p>
+  </div>
+
+  <div class="column">
+    <img src="index/C.png" style="width: 250px; margin-left: 120px;" alt="Contato">
+    <p style="font-size: 20px; text-align: center; margin-top: -10px; margin-left: 70px; margin-right: 30px;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Suspendisse nisl ex, ullamcorper a faucibus a, tristique a lorem.
+    </p>
+  </div>
+
+  <div class="column">
+    <img src="index/S.png" style="width: 200px; margin-left: 110px;" alt="Social">
+    <p style="font-size: 20px; text-align: center; margin-top: -10px; margin-left: 50px; margin-right: 80px;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Suspendisse nisl ex, ullamcorper a faucibus a, tristique a lorem.
+    </p>
+  </div>
+
+</div>
+</footer>
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</body>
+</html>
